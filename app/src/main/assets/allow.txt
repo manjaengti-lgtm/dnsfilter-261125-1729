@@ -1,0 +1,16 @@
+# DNS Filter — allow list
+#
+# One domain per line. Anything listed here is NEVER blocked, including all of
+# its subdomains. Matching is case-insensitive and a trailing dot is ignored.
+#
+# Both plain domains and hosts-file lines ("0.0.0.0 domain") work.
+# Lines starting with # or ! are comments.
+#
+# Examples of things you may want to allow (uncomment by removing the #):
+#
+# 0.0.0.0 graph.facebook.com
+# 0.0.0.0 ssl.google-analytics.com
+# 0.0.0.0 app-measurement.com
+#
+# Add domains Castle needs if a login, image or video stops working:
+# 0.0.0.0 api.example-castle-domain.com
